@@ -2510,12 +2510,30 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 4px;
-		border: 0;
-		display: inline-block;
-		position: relative;
-		overflow: hidden;
-	}
+  border-radius: 4px;
+  border: 0;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro-paragraph {
+  width: 65%;
+  padding-right: 10px;
+}
+
+@media (max-width: 992px) {
+  .intro-paragraph {
+    width: 100%;
+  }
+  .intro-header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #profile-image {
+    width: 260px;
+  }
+}
 
 		.image:before {
 			content: '';

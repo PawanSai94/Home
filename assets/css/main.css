@@ -2964,6 +2964,7 @@ input, select, textarea {
 		white-space: nowrap;
 		width: 10em;
 		z-index: 1;
+
 	}
 
 		.goto-next:before {

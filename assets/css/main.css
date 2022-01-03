@@ -207,8 +207,9 @@ a {
   -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #e44c65;
+  color: #479dd6;
   text-decoration: none;
+  font-weight: 400;
 }
 
 a:hover {
@@ -218,8 +219,8 @@ a:hover {
 
 strong,
 b {
-  color: #ffffff;
-  font-weight: 300;
+  color: #ffff;
+  font-weight: 500;
 }
 
 em,
@@ -3077,18 +3078,20 @@ input[type="button"]:disabled,
 }
 
 .goto-next:before {
-  background-image: url("images/arrow.svg");
+  border-radius: 50px;
+  background:  #ededdd;
+  background-image: url("images/arw.gif");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
   content: "";
   display: block;
-  height: 1.5em;
-  left: 50%;
-  margin: -0.75em 0 0 -1em;
+  height: 3em;
+  left: 10%;
+  margin: 0em 0 0 0em;
   position: absolute;
-  top: 50%;
-  width: 2em;
+  top: 10%;
+  width: 6em;
   z-index: 1;
 }
 
